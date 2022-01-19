@@ -10,7 +10,7 @@ export const BannerStyle = styled.section`
   background-position: center;
   background-repeat: no-repeat;
   background-position-x: 20px;
-  border-top: 1px solid yellow;
+  border-top: 2px solid yellow;
   background-color: #000;
   color: #fff;
 

@@ -18,5 +18,11 @@ export const HeaderStyle = styled.header`
     img {
       width: 50%
     }
+
+    nav a{
+      margin-right: 1rem;
+      text-decoration: none;
+      color: #fff;
+    }
   }
 `;

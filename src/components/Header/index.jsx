@@ -14,11 +14,11 @@ const Header = () => {
         <div className="logo">
           <img src={Logo} alt="Digital.ao Logo" />
         </div>
-        <div className="menu">
+        <nav className="menu">
           <a href="/">Home</a>
           <a href="/">Carrinho</a>
           <a href="/">Menu</a>
-        </div>
+        </nav>
       </div>
     </HeaderStyle>
   )
