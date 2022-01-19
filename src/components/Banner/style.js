@@ -37,7 +37,7 @@ export const BannerStyle = styled.section`
         width: 40px;
         background: yellow;
         padding: 10px;
-        margin-bottom: 0.25rem;
+        margin-bottom: 0.70rem;
 
         display: flex;
         align-items: center;
