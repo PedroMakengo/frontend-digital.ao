@@ -8,9 +8,9 @@ const Banner = () => {
     <BannerStyle>
       <div className="container">
         <div className="redes">
+          <a href='face'>W</a>
           <a href='face'>F</a>
-          <a href='face'>F</a>
-          <a href="face">F</a>
+          <a href="face">I</a>
         </div>
         <div className="img"></div>
         <div className="content">

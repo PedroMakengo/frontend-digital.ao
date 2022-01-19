@@ -26,9 +26,9 @@ export const BannerStyle = styled.section`
 
     .redes {
       width: 10%;
-      position: fixed;
+      position: relative;
       float: left;
-      left: 10px;
+      left: -110px;
 
       display: flex;
       flex-direction: column;
