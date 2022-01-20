@@ -30,7 +30,7 @@ export const ServicoContent = styled.div `
 
 
 export const RowServico = styled.div`
-  margin-top: 30px;
+  margin-top: 20px;
   display: flex;
   justify-content: space-between;
 
