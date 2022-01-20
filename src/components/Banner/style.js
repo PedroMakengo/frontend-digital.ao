@@ -10,7 +10,7 @@ export const BannerStyle = styled.section`
   background-position: center;
   background-repeat: no-repeat;
   background-position-x: 20px;
-  border-top: 2px solid yellow;
+  border-top: 2px solid #FFFF00;
   background-color: #000;
   color: #fff;
 
@@ -34,8 +34,9 @@ export const BannerStyle = styled.section`
       flex-direction: column;
 
       a {
-        width: 40px;
-        background: yellow;
+        width: 30px;
+        height: 20px;
+        background: #FFFF00;
         padding: 10px;
         margin-bottom: 0.70rem;
 
@@ -48,6 +49,10 @@ export const BannerStyle = styled.section`
         color: #000;
         font-weight: bold;
         text-decoration: none;
+
+        svg {
+          font-size: 1.4rem;
+        }
       }
     }
 
@@ -62,7 +67,7 @@ export const BannerStyle = styled.section`
         align-items: center;
         justify-content: center;
 
-        background: yellow;
+        background: #FFFF00;
 
         width: 310px;
         height: 70px;

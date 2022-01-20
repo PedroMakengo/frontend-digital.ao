@@ -2,9 +2,10 @@ import React from 'react';
 
 import { HeaderStyle } from './style.js';
 
+import {FaBars, FaShoppingCart, FaUserCircle} from 'react-icons/fa'
+
 
 import Logo from '../../assets/images/logo.png';
-
 
 const Header = () => {
 
@@ -15,9 +16,15 @@ const Header = () => {
           <img src={Logo} alt="Digital.ao Logo" />
         </div>
         <nav className="menu">
-          <a href="/">Home</a>
-          <a href="/">Carrinho</a>
-          <a href="/">Menu</a>
+          <a href="/">
+            <FaUserCircle />
+          </a>
+          <a href="/">
+            <FaShoppingCart/>
+          </a>
+          <a href="/">
+            <FaBars />
+          </a>
         </nav>
       </div>
     </HeaderStyle>
