@@ -5,6 +5,7 @@ import AboutDigital from './components/AboutDigital';
 import CenterDigital from './components/CenterDigital';
 import Servicos from './components/Servicos';
 import Empresas from './components/Empresas';
+import SendEmail from './components/SendEmail';
 
 const  App = () => {
   return (
@@ -15,9 +16,7 @@ const  App = () => {
       <CenterDigital />
       <Servicos />
       <Empresas />
-      <div>
-        <h1>Olá Mundo</h1>
-      </div>
+      <SendEmail />
     </>
   );
 }

@@ -10,7 +10,7 @@ const Empresas = () => {
   return (
     <Empresa>
       <div className="container">
-        <div class="title">
+        <div className="title">
           <h1>Nossos Clientes</h1>
           <p>Apresentamos para si os nossos clientes</p>
         </div>
