@@ -2,7 +2,7 @@ import React from 'react';
 
 import { HeaderStyle } from './style.js';
 
-import {FaBars, FaShoppingCart, FaUserCircle} from 'react-icons/fa'
+import {FaBars, FaSearch, FaShoppingCart, FaUserCircle} from 'react-icons/fa'
 
 
 import Logo from '../../assets/images/logo.png';
@@ -18,6 +18,9 @@ const Header = () => {
         <nav className="menu">
           <a href="/">
             <FaUserCircle />
+          </a>
+          <a href="/">
+            <FaSearch/>
           </a>
           <a href="/">
             <FaShoppingCart/>
