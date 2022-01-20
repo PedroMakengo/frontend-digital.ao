@@ -5,6 +5,9 @@ import { Empresa, RowEmpresa } from './style.js';
 import LogoItel from '../../assets/images/logoItel.png';
 import LogoGov from '../../assets/images/logo-angola.png';
 import LogoInfosi from '../../assets/images/logo-infosi.png';
+import LogoEllonet from '../../assets/images/logo-ellonet.png';
+import LogoUnitel from '../../assets/images/logo-unitel.svg';
+import LogoJornal from '../../assets/images/logo-jornal.png';
 
 const Empresas = () => {
   return (
@@ -25,13 +28,13 @@ const Empresas = () => {
             <img src={LogoInfosi} alt="" />
           </div>
           <div>
-            <img src={LogoInfosi} alt="" />
+            <img src={LogoEllonet} alt="" />
           </div>
           <div>
-            <img src={LogoGov} alt="" />
+            <img src={LogoUnitel} alt="" />
           </div>
           <div>
-            <img src={LogoItel} alt="" />
+            <img src={LogoJornal} alt="" />
           </div>
         </RowEmpresa>
       </div>
