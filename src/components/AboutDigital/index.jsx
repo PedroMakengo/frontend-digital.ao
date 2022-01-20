@@ -10,8 +10,9 @@ const AboutDigital = () => {
           <h1>Digital.ao</h1>
           <p>Temos para si o domínio .ao um domínio angolano para instituições angolanas,
              também temos alguns serviços para a tua empresa ou startup.</p>
+
+          <p>O Digital.ao tem equipas dedicadas para apoiar nos seus projetos entre em contacto e saiba mais.</p>
         </div>
-        <img src="" alt="" />
       </div>
     </SectionAbout>
   )

@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 
 export const Center = styled.div`
-  height: 70vh;
+  height: 80vh;
   background: #000;
   border-top: 5px solid yellow;
 

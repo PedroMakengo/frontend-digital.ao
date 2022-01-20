@@ -28,7 +28,7 @@ export const BannerStyle = styled.section`
       width: 10%;
       position: relative;
       float: left;
-      left: -110px;
+      left: -180px;
 
       display: flex;
       flex-direction: column;
