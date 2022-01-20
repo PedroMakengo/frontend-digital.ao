@@ -2,6 +2,10 @@ import React from 'react';
 
 import { Empresa, RowEmpresa } from './style.js';
 
+import LogoItel from '../../assets/images/logoItel.png';
+import LogoGov from '../../assets/images/logo-angola.png';
+import LogoInfosi from '../../assets/images/logo-infosi.png';
+
 const Empresas = () => {
   return (
     <Empresa>
@@ -12,22 +16,22 @@ const Empresas = () => {
         </div>
         <RowEmpresa className="row">
           <div>
-            <h1>Testando</h1>
+            <img src={LogoGov} alt="" />
           </div>
           <div>
-            <h1>Testando</h1>
+            <img src={LogoItel} alt="" />
           </div>
           <div>
-            <h1>Testando</h1>
+            <img src={LogoInfosi} alt="" />
           </div>
           <div>
-            <h1>Testando</h1>
+            <img src={LogoInfosi} alt="" />
           </div>
           <div>
-            <h1>Testando</h1>
+            <img src={LogoGov} alt="" />
           </div>
           <div>
-            <h1>Testando</h1>
+            <img src={LogoItel} alt="" />
           </div>
         </RowEmpresa>
       </div>
