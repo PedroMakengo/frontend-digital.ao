@@ -1,13 +1,17 @@
-import React from 'react';
+import React from "react";
+
+import { FooterStyle } from "./style.js";
 
 const Footer = () => {
   return (
-    <footer>
+    <FooterStyle>
       <div className="container">
-        
+        <div className="itemFooter">
+          <h2>Barcelona</h2>
+        </div>
       </div>
-    </footer>
-  )
-}
+    </FooterStyle>
+  );
+};
 
 export default Footer;
